@@ -170,6 +170,12 @@ xcodebuild test \
 - 収益情報
 - 審査対応メモ
 
+## 関連リポジトリ
+
+- [mobile-app-portfolio](https://github.com/nomazzo/mobile-app-portfolio): 全体のアプリポートフォリオ説明
+- [ios-appstore-production-kit](https://github.com/nomazzo/ios-appstore-production-kit): iOSアプリ公開・運用に必要な共通実装サンプル
+- [ios-photo-editor-sample](https://github.com/nomazzo/ios-photo-editor-sample): ペインティング風カメラアプリの公開用サンプル
+
 ## Public Demo Notes
 
 このプロジェクトは公開用ポートフォリオです。本番のApp Store商品、バックエンド、分析基盤、商用URLには接続していません。
