@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D10000002FBE00000000000B /* CleanCueWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D10000002FBE000000000001 /* CleanCueWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6E618E2FBE74EA009AF0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6E61782FBE74E8009AF0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6E617F2FBE74E8009AF0AA;
+			remoteInfo = CleanCue;
+		};
+		CD6E61982FBE74EA009AF0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6E61782FBE74E8009AF0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6E617F2FBE74E8009AF0AA;
+			remoteInfo = CleanCue;
+		};
+		D10000002FBE00000000000D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6E61782FBE74E8009AF0AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D10000002FBE000000000006;
+			remoteInfo = CleanCueWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D10000002FBE00000000000A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D10000002FBE00000000000B /* CleanCueWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD6E61802FBE74E8009AF0AA /* CleanCue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanCue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6E618D2FBE74EA009AF0AA /* CleanCueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanCueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6E61972FBE74EA009AF0AA /* CleanCueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanCueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10000002FBE000000000001 /* CleanCueWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CleanCueWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D10000002FBE00000000000F /* Exceptions for "CleanCueWidget" folder in "CleanCueWidget" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D10000002FBE000000000006 /* CleanCueWidget */;
+		};
+		D10000002FBE000000000010 /* Exceptions for "CleanCue" folder in "CleanCue" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CD6E617F2FBE74E8009AF0AA /* CleanCue */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CD6E61822FBE74E8009AF0AA /* CleanCue */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D10000002FBE000000000010 /* Exceptions for "CleanCue" folder in "CleanCue" target */,
+			);
+			path = CleanCue;
+			sourceTree = "<group>";
+		};
+		CD6E61902FBE74EA009AF0AA /* CleanCueTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CleanCueTests;
+			sourceTree = "<group>";
+		};
+		CD6E619A2FBE74EA009AF0AA /* CleanCueUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CleanCueUITests;
+			sourceTree = "<group>";
+		};
+		D10000002FBE000000000002 /* CleanCueWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D10000002FBE00000000000F /* Exceptions for "CleanCueWidget" folder in "CleanCueWidget" target */,
+			);
+			path = CleanCueWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6E617D2FBE74E8009AF0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6E618A2FBE74EA009AF0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6E61942FBE74EA009AF0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10000002FBE000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6E61772FBE74E8009AF0AA = {
+			isa = PBXGroup;
+			children = (
+				CD6E61822FBE74E8009AF0AA /* CleanCue */,
+				CD6E61902FBE74EA009AF0AA /* CleanCueTests */,
+				CD6E619A2FBE74EA009AF0AA /* CleanCueUITests */,
+				D10000002FBE000000000002 /* CleanCueWidget */,
+				CD6E61812FBE74E8009AF0AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6E61812FBE74E8009AF0AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6E61802FBE74E8009AF0AA /* CleanCue.app */,
+				CD6E618D2FBE74EA009AF0AA /* CleanCueTests.xctest */,
+				CD6E61972FBE74EA009AF0AA /* CleanCueUITests.xctest */,
+				D10000002FBE000000000001 /* CleanCueWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6E617F2FBE74E8009AF0AA /* CleanCue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6E61A12FBE74EA009AF0AA /* Build configuration list for PBXNativeTarget "CleanCue" */;
+			buildPhases = (
+				CD6E617C2FBE74E8009AF0AA /* Sources */,
+				CD6E617D2FBE74E8009AF0AA /* Frameworks */,
+				CD6E617E2FBE74E8009AF0AA /* Resources */,
+				D10000002FBE00000000000A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D10000002FBE00000000000C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD6E61822FBE74E8009AF0AA /* CleanCue */,
+			);
+			name = CleanCue;
+			packageProductDependencies = (
+			);
+			productName = CleanCue;
+			productReference = CD6E61802FBE74E8009AF0AA /* CleanCue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6E618C2FBE74EA009AF0AA /* CleanCueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6E61A42FBE74EA009AF0AA /* Build configuration list for PBXNativeTarget "CleanCueTests" */;
+			buildPhases = (
+				CD6E61892FBE74EA009AF0AA /* Sources */,
+				CD6E618A2FBE74EA009AF0AA /* Frameworks */,
+				CD6E618B2FBE74EA009AF0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6E618F2FBE74EA009AF0AA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD6E61902FBE74EA009AF0AA /* CleanCueTests */,
+			);
+			name = CleanCueTests;
+			packageProductDependencies = (
+			);
+			productName = CleanCueTests;
+			productReference = CD6E618D2FBE74EA009AF0AA /* CleanCueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6E61962FBE74EA009AF0AA /* CleanCueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6E61A72FBE74EA009AF0AA /* Build configuration list for PBXNativeTarget "CleanCueUITests" */;
+			buildPhases = (
+				CD6E61932FBE74EA009AF0AA /* Sources */,
+				CD6E61942FBE74EA009AF0AA /* Frameworks */,
+				CD6E61952FBE74EA009AF0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6E61992FBE74EA009AF0AA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CD6E619A2FBE74EA009AF0AA /* CleanCueUITests */,
+			);
+			name = CleanCueUITests;
+			packageProductDependencies = (
+			);
+			productName = CleanCueUITests;
+			productReference = CD6E61972FBE74EA009AF0AA /* CleanCueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D10000002FBE000000000006 /* CleanCueWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10000002FBE000000000009 /* Build configuration list for PBXNativeTarget "CleanCueWidget" */;
+			buildPhases = (
+				D10000002FBE000000000003 /* Sources */,
+				D10000002FBE000000000004 /* Frameworks */,
+				D10000002FBE000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D10000002FBE000000000002 /* CleanCueWidget */,
+			);
+			name = CleanCueWidget;
+			packageProductDependencies = (
+			);
+			productName = CleanCueWidget;
+			productReference = D10000002FBE000000000001 /* CleanCueWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6E61782FBE74E8009AF0AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				ORGANIZATIONNAME = AppExtreme;
+				TargetAttributes = {
+					CD6E617F2FBE74E8009AF0AA = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					CD6E618C2FBE74EA009AF0AA = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = CD6E617F2FBE74E8009AF0AA;
+					};
+					CD6E61962FBE74EA009AF0AA = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = CD6E617F2FBE74E8009AF0AA;
+					};
+					D10000002FBE000000000006 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CD6E617B2FBE74E8009AF0AA /* Build configuration list for PBXProject "CleanCue" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				Base,
+			);
+			mainGroup = CD6E61772FBE74E8009AF0AA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CD6E61812FBE74E8009AF0AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6E617F2FBE74E8009AF0AA /* CleanCue */,
+				CD6E618C2FBE74EA009AF0AA /* CleanCueTests */,
+				CD6E61962FBE74EA009AF0AA /* CleanCueUITests */,
+				D10000002FBE000000000006 /* CleanCueWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6E617E2FBE74E8009AF0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6E618B2FBE74EA009AF0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6E61952FBE74EA009AF0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10000002FBE000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6E617C2FBE74E8009AF0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6E61892FBE74EA009AF0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6E61932FBE74EA009AF0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10000002FBE000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6E618F2FBE74EA009AF0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6E617F2FBE74E8009AF0AA /* CleanCue */;
+			targetProxy = CD6E618E2FBE74EA009AF0AA /* PBXContainerItemProxy */;
+		};
+		CD6E61992FBE74EA009AF0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6E617F2FBE74E8009AF0AA /* CleanCue */;
+			targetProxy = CD6E61982FBE74EA009AF0AA /* PBXContainerItemProxy */;
+		};
+		D10000002FBE00000000000C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D10000002FBE000000000006 /* CleanCueWidget */;
+			targetProxy = D10000002FBE00000000000D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD6E619F2FBE74EA009AF0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6E61A02FBE74EA009AF0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6E61A22FBE74EA009AF0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CleanCue/CleanCue.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CleanCue/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HomeRoutine Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.homeroutinedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CD6E61A32FBE74EA009AF0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CleanCue/CleanCue.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CleanCue/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HomeRoutine Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.homeroutinedemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CD6E61A52FBE74EA009AF0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.homeroutinedemo.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanCue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CleanCue";
+			};
+			name = Debug;
+		};
+		CD6E61A62FBE74EA009AF0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.homeroutinedemo.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanCue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CleanCue";
+			};
+			name = Release;
+		};
+		CD6E61A82FBE74EA009AF0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.homeroutinedemo.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CleanCue;
+			};
+			name = Debug;
+		};
+		CD6E61A92FBE74EA009AF0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.homeroutinedemo.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CleanCue;
+			};
+			name = Release;
+		};
+		D10000002FBE000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = CleanCueWidget/CleanCueWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CleanCueWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.homeroutinedemo.CleanCueWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D10000002FBE000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = CleanCueWidget/CleanCueWidget.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CleanCueWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.homeroutinedemo.CleanCueWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6E617B2FBE74E8009AF0AA /* Build configuration list for PBXProject "CleanCue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6E619F2FBE74EA009AF0AA /* Debug */,
+				CD6E61A02FBE74EA009AF0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6E61A12FBE74EA009AF0AA /* Build configuration list for PBXNativeTarget "CleanCue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6E61A22FBE74EA009AF0AA /* Debug */,
+				CD6E61A32FBE74EA009AF0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6E61A42FBE74EA009AF0AA /* Build configuration list for PBXNativeTarget "CleanCueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6E61A52FBE74EA009AF0AA /* Debug */,
+				CD6E61A62FBE74EA009AF0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6E61A72FBE74EA009AF0AA /* Build configuration list for PBXNativeTarget "CleanCueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6E61A82FBE74EA009AF0AA /* Debug */,
+				CD6E61A92FBE74EA009AF0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10000002FBE000000000009 /* Build configuration list for PBXNativeTarget "CleanCueWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D10000002FBE000000000007 /* Debug */,
+				D10000002FBE000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6E61782FBE74E8009AF0AA /* Project object */;
+}

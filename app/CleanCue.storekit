@@ -1,0 +1,46 @@
+{
+  "identifier" : "0A5FE552-2D38-4D06-9B9D-0E6F7A6C1A4D",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "¥700",
+      "familyShareable" : false,
+      "internalID" : "1A8A4490-65F0-4CC0-BF9A-D68F68C18AF4",
+      "localizations" : [
+        {
+          "description" : "公開用デモのPro解除です。場所と掃除の上限解除、追加通知、今後のPro機能を試せます。",
+          "displayName" : "HomeRoutine Demo Pro",
+          "locale" : "ja_JP"
+        },
+        {
+          "description" : "Portfolio demo Pro unlock for unlimited places, cleaning tasks, extra reminders, and future Pro features.",
+          "displayName" : "HomeRoutine Demo Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.example.homeroutinedemo.pro",
+      "referenceName" : "HomeRoutine Demo Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "DEMO123456",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 769863600,
+    "_locale" : "ja_JP",
+    "_storefront" : "JPN",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

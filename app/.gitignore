@@ -1,0 +1,20 @@
+# Xcode
+DerivedData/
+build/
+*.xcresult
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# User-specific Xcode state
+*.xcuserstate
+xcuserdata/
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+
+# CocoaPods / dependency caches if added later
+Pods/
